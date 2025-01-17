@@ -1,0 +1,28 @@
+.pageerror {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+}
+.pageerror img {
+  height: 400px;
+}
+.pageerror .btn {
+  display: block;
+  background-color: var(--primary);
+  text-align: center;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  color: var(--white);
+  border-radius: 0.5rem;
+}
+.pageerror .btn:hover {
+  background-color: var(--primary-hover);
+}
+@media (max-width: 991px) {
+  .pageerror img {
+    width: 285px;
+    height: auto;
+  }
+}

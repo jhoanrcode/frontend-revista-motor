@@ -1,0 +1,30 @@
+.footer {
+  width: 100%;
+  padding: 1rem 0;
+  color: var(--white);
+  background-color: var(--primary);
+  font-size: var(--f-small);
+}
+
+.footer__container {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+.footer__container .link-email {
+  margin-left: 4px;
+  color: var(--white) !important;
+  text-decoration: underline;
+}
+.footer__container .terminos,
+.footer__container .copyright {
+  font-size: var(--f-light);
+}
+.footer__container .terminos {
+  width: 100%;
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+.footer__container .terminos a:hover {
+  color: var(--white);
+  text-decoration: underline;
+}
