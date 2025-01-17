@@ -18,8 +18,16 @@ Configuración del proyecto:
    ```
    npm install
    ```
-3. **Ejecutar el servidor**: 
+3. **Ejecutar el servidor**: En modo local.
 
    ```
    npm run dev
    ```
+   
+#### Ajustes de API
+Por defecto este proyecto consumira los servicios de una API local `public/data.json`. 
+Si lo desea, en el archivo `services/api.ts` puedes actualizar la APIKey para consumir tu propio servicio, pero recuerda deberas renombrar los Object Keys del nuevo JSON para coincidir con el codigo actual.
+
+#### Base de datos
+Puedes consultar la base datos para este portal en el archivo `public/rest_api.sql`. 
+O consultar el Diagrama DB en `src/assets/diagrama.png`.
