@@ -31,3 +31,8 @@ Si lo desea, en el archivo `services/api.ts` puedes actualizar la APIKey para co
 #### Base de datos:
 Puedes consultar la base datos para este portal en el archivo `public/rest_api.sql`. 
 O consultar el Diagrama DB en `src/assets/diagrama.png`.
+
+
+https://github.com/anmol-virk/FormInReacttt
+https://github.com/Abdullah-Junayed-290/React-Form-Handling-/blob/main/src/App.jsx
+https://www.youtube.com/watch?v=KW4CM3zrcdU
